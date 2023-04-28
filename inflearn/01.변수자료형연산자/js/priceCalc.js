@@ -2,6 +2,7 @@ function showPrice() {
     //사용자가 입력한 값을 두 개의 변수에 저장함.
     const oPrice = document.querySelector("#originalPrice").value;
     const rate = document.querySelector("#rate").value;
+    
 
     //두 개의 값이 음수가 아니라면...실행해라.
     if(oPrice > 0 && rate > 0) {
